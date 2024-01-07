@@ -1,0 +1,54 @@
+/* font link  */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+/* Reset css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Reset css end */
+
+/* Common Styles Start */
+.container {
+    width: 82%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+/* Common Styles Start */
+
+
+/* Header Section Styles Start */
+#header-section .header-text{
+    text-align: center;
+}
+#header-section .container {
+    background-image: url("../images/Banner\ Image.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    position: relative;
+}
+#header-section .header-text h3{
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    font-size: 32px;
+}
+#header-section .header-text h1 {
+    font-family: Merriweather, serif;
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    text-align: center;
+    line-height: 96px;
+    
+}
+#header-section .header-text {
+    padding: 150px 0;  
+}
+/* Header Section Styles End */
+
+
+
+font-family: 'Inter', sans-serif;

@@ -420,6 +420,7 @@ section {
     border-radius: 35px;
     background: #FFF;
 }
+
 .email-field button {
     width: 144px;
     height: 51px;
@@ -436,3 +437,62 @@ section {
 }
 
 /* Newsletter Section Styles End */
+
+/* Footer Section Styles Start */
+.footer-section {
+    background-color: #070211;
+    margin-top: 110px;
+    padding: 110px 0;
+}
+
+.footer-upper-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.footer-upper-left-content p,
+.footer-upper-right-content p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-upper-left-content p {
+    width: 59%;
+}
+
+.footer-upper-right-content {
+    margin-right: 90px;
+}
+
+.footer-upper-right-content img {
+    transform: translate(-2px, 7px);
+}
+
+.footer-social-icons {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.footer-social-icons img {
+    margin-right: 20px;
+}
+
+.footer-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.footer-bottom-content p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Footer Section Styles End */

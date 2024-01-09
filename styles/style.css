@@ -120,8 +120,8 @@ section {
     justify-content: space-around;
     align-items: center;
     font-family: Merriweather, serif;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), 
-    url("../images/Vectorrr.png");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
+        url("../images/Vectorrr.png");
     background-position: center center;
     background-size: cover;
     padding: 40px 30px 30px 0;
@@ -198,6 +198,11 @@ section {
     color: #fff;
     font-size: 18px;
     font-weight: 600;
+    transition: all .4s;
+}
+
+.btn-field button:hover {
+    box-shadow: 0px 6px 30px rgba(255, 0, 0, .8);
 }
 
 /* Timing Section Styles End */
@@ -369,6 +374,28 @@ section {
     width: 32%;
     height: 378px;
     cursor: pointer;
+    position: relative;
+}
+
+.portfolio-image-field .portfolio-image::after {
+    content: "";
+    height: 0;
+    width: 100%;
+    background: linear-gradient(60deg, rgba(255, 0, 0, .7), 40%, rgba(7, 2, 17, .7));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 14px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s;
+}
+
+.portfolio-image-field .portfolio-image:hover::after {
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+    /* width: 100%; */
 }
 
 .portfolio-image-field .portfolio-image img {
